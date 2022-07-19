@@ -1,5 +1,6 @@
-import app from './index.js';
+import app from './index.js'
+import config from './config.js';
 
-app.listen(3001, () => {
+app.listen(config.port, () => {
 	console.log('server listening...');
 });
